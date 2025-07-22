@@ -60,8 +60,8 @@ jobs:
       - name: Deploy to Data Factory
         uses: Azure/data-factory-deploy-action@v1.2.0
         with:
-          resourceGroupName: <test-adf-resource-group>
-          dataFactoryName: <test-adf-name>
+          resourceGroupName: test-github-cicd
+          dataFactoryName: testadfgithubcicd
           armTemplateFile: ARMTemplateForFactory.json
           armTemplateParametersFile: ARMTemplateParametersForFactory.json
           # additionalParameters: 'factoryName=Test-ADF-111' # optional, if needed for dynamic replacements

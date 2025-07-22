@@ -1,5 +1,5 @@
 {
-	"name": "pipeline1gitaction",
+	"name": "pipeline1",
 	"properties": {
 		"activities": [
 			{

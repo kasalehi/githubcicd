@@ -1,0 +1,9 @@
+{
+	"name": "devadfgithubcicd",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "0d43ba7e-c0c0-488f-8f43-0c8a1b009b82",
+		"tenantId": "6c6e9390-d3ce-4e5a-a2e8-4d8f14094c73"
+	}
+}
